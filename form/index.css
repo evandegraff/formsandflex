@@ -5,12 +5,27 @@ body { text-align: center;
 @media screen and (min-width: 400px) {
     body {
       background-color: lightgreen;
+      font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
     }
   }
   
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: rgb(193, 92, 48);
+      font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    }
+  }
   @media screen and (min-width: 800px) {
     body {
       background-color: peachpuff;
+      font-size: 30px;
+    padding: 20px;
+    border: 2px solid black;
+
     }
   }
 
