@@ -1,0 +1,40 @@
+body {
+  background-color: peachpuff;
+}
+.grid-container {
+  grid-area: center;
+  position: relative;
+  display: inline-grid;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  row-gap: 50px;
+  text-align: center;
+  padding: 25px;
+
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+section {
+  background-color: aquamarine;
+  align-content: center;
+  border: solid black 1px;
+  padding: 20px;
+}
+article {
+  background-color: aquamarine;
+  border: solid black 1px;
+  align-content: center;
+  padding: 20px;
+}

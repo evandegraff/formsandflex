@@ -1,0 +1,45 @@
+body { text-align: center;
+    background-color: peachpuff;
+  }
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: peachpuff;
+    }
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row wrap;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+  }
+  section {
+    background-color: aquamarine;
+    align-content: center;
+    border: solid black 1px;
+    padding: 20px;
+  }
+  article {
+    background-color: aquamarine;
+    border: solid black 1px;
+    align-content: center;
+    padding: 20px;
+  }
+  
+  .section-4{
+    background-color: aquamarine;
+    align-content: center;
+    border: solid black 1px;
+    padding: 20px;
+  }
